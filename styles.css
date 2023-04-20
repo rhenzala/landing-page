@@ -39,7 +39,6 @@ button{
 .hero,
 .footer,
 .content,
-.action-time,
 .review{
     display: flex;
     flex-direction: column;
@@ -136,6 +135,7 @@ button{
 /****************************************** REVIEW ******************************************/
 .review{
     background-color: #e5e7eb;
+    color: #1f2937;
     padding: 4rem 15vw;
 }
 blockquote{
@@ -152,11 +152,25 @@ cite{
 }
 
 /****************************************** ACTION TIME ******************************************/
+.action-time{
+    padding: 2rem 10vw;
+}
+.sign-up{
+    color: #f9faf8;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .sign-up button{
     border: 1px #fff solid;
+}
+.sign-up .main-text{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /****************************************** FOOTER ******************************************/
 .footer{
-
+    align-items: center;
 }
