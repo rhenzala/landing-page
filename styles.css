@@ -103,9 +103,7 @@ button{
 }
 
 /****************************************** CONTENT ******************************************/
-.info{
-    display: flex;
-    flex-direction: column;
+.content{
     align-items: center;
     gap: 4rem;
 }
@@ -138,14 +136,17 @@ button{
 /****************************************** REVIEW ******************************************/
 .review{
     background-color: #e5e7eb;
+    padding: 4rem 15vw;
 }
 blockquote{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    text-align: center;
 }
 cite{
     font-weight: bold;
+    font-size: 22px;
     font-style: normal;
     text-align: right;
 }
